@@ -1,0 +1,42 @@
+.button {
+  font-size: 1rem;
+  font-weight: 500;
+  color: #3d40cc;
+
+  cursor: pointer;
+  max-height: 3.5rem;
+  padding: 1rem 2rem;
+  outline: none;
+  border-radius: 1rem;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.primary {
+  text-decoration: none;
+  background-color: #3d40cc;
+  border: #3d40cc solid 2px;
+  color: white;
+}
+
+.primary .buttonLink {
+  text-decoration: none;
+  color: white;
+}
+
+.secondary {
+  border: #3d40cc solid 2px;
+  background-color: transparent;
+}
+
+.secondary .buttonLink {
+  text-decoration: none;
+  color: #3d40cc;
+}
+
+.tertiary {
+  padding: 0;
+}

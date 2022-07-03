@@ -1,0 +1,23 @@
+.products {
+  width: 100%;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+
+.productMainSection {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+}
+
+@media screen and (max-width: 720px) {
+  .sectionTitle {
+    font-size: 2rem;
+    margin-bottom: 75px;
+  }
+}

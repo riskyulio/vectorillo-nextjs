@@ -1,0 +1,27 @@
+.promo {
+  padding: 2rem 0;
+  overflow: hidden;
+}
+
+.light {
+  background-color: #f7f5ed;
+  color: #3d40cc;
+}
+.dark {
+  background-color: #3d40cc;
+  color: white;
+}
+
+.content {
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 2rem;
+
+  font-weight: 300;
+}
+
+.content span {
+  min-width: max-content;
+}

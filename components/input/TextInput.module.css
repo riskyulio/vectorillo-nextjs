@@ -1,0 +1,36 @@
+.input {
+  width: 100%;
+  border: none;
+  outline: none;
+  background-color: white;
+  font-size: 1.2rem;
+  color: #3d40cc;
+  background-color: white;
+  padding: 1rem 2rem;
+  border-radius: 1rem;
+}
+
+.input:focus {
+  outline: solid 2px #3d40cc;
+  background-color: #dcddff;
+}
+
+.outlined {
+  border: solid 2px #dedede;
+}
+
+.validInput {
+  outline: solid 2px #18841b;
+  background-color: #fff;
+  color: #18841b;
+}
+
+.validInput:focus {
+  outline: solid 2px #18841b;
+  background-color: #90d39e;
+  color: #18841b;
+}
+
+.invalidInput {
+  color: #ed0d5b;
+}

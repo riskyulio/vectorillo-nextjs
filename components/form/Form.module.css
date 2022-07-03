@@ -1,0 +1,12 @@
+.form {
+  max-width: 400px;
+  display: flex;
+  gap: 1rem;
+}
+
+.row {
+  flex-direction: row;
+}
+.column {
+  flex-direction: column;
+}

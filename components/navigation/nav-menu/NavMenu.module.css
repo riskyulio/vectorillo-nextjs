@@ -1,0 +1,26 @@
+.navMenu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navMenu:first-child,
+.navLink:first-child {
+  padding-inline-start: 0;
+}
+
+.navMenu:last-child,
+.navLink:last-child {
+  padding-inline-end: 0;
+}
+
+.navLink {
+  list-style-type: none;
+  padding-inline: 2rem;
+}
+
+@media (max-width: 600px) {
+  .navMenu {
+    display: none;
+  }
+}

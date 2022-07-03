@@ -1,0 +1,71 @@
+.footer {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 3fr 2fr 3fr;
+  grid-template-areas:
+    "about links contact"
+    "policy logo copyright";
+  gap: 1px;
+  border: solid 1px #2f2f2f;
+  background-color: #2f2f2f;
+  color: #2f2f2f;
+}
+
+.listItem {
+  list-style-type: none;
+}
+
+.about,
+.links,
+.contact,
+.policy,
+.logo,
+.copyright {
+  padding: 32px;
+  background-color: white;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  text-align: center;
+  font-size: 1rem;
+  line-height: 189%;
+}
+
+.about {
+  grid-area: about;
+}
+
+.links {
+  grid-area: links;
+}
+
+.contact {
+  grid-area: contact;
+}
+
+.policy {
+  font-size: 0.8rem;
+  grid-area: policy;
+}
+
+.policy ul {
+  display: flex;
+  gap: 1.5rem;
+}
+
+.policy ul a {
+  text-decoration: none;
+  color: #2f2f2f;
+}
+
+.logo {
+  grid-area: logo;
+}
+
+.copyright {
+  font-size: 0.8rem;
+  grid-area: copyright;
+}

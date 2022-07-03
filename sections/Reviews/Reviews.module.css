@@ -1,0 +1,59 @@
+.reviews {
+  display: grid;
+  grid-template-columns: auto 4fr auto;
+  gap: 1rem;
+  place-content: center;
+  align-items: center;
+
+  border: dotted 2px purple;
+}
+
+.mainReview {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.quote {
+  font-weight: 500;
+  text-align: center;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .reviews {
+    padding: 2rem 1rem;
+  }
+  .quote {
+    margin: 1rem 0;
+    max-width: 350px;
+    font-size: 1rem;
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .reviews {
+    padding: 3rem 2rem;
+  }
+
+  .quote {
+    margin: 2rem 0;
+    max-width: 350px;
+    font-size: 1rem;
+  }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  .quote {
+    margin: 2em 0;
+    max-width: 950px;
+    font-size: 2rem;
+  }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+}

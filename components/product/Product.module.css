@@ -1,0 +1,55 @@
+@keyframes productMotion {
+  from {
+    transform: scale(100%);
+  }
+  to {
+    transform: scale(102%);
+  }
+}
+
+.product {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  border: solid 1px #e9e9e9;
+  background-color: white;
+  padding: 1rem;
+  border-radius: 1rem;
+  position: relative;
+}
+
+.product:hover {
+  transform: scale(102%);
+  animation: productMotion 300ms;
+  border: solid 2px #3d40cc;
+}
+
+.product h4 {
+  font-size: 1.2rem;
+  font-weight: 700;
+  margin-block: 0;
+  margin: 1rem 0 0.4rem 0;
+}
+
+.product p {
+  margin: 0;
+  margin-block: 0;
+
+  color: #53535f;
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+
+@media (min-width: 1280px) {
+  .product {
+    max-width: 320px;
+    height: 350px;
+  }
+}
+
+@media (max-width: 600px) {
+  .product {
+    max-width: 100%;
+  }
+}

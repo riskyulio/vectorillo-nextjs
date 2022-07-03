@@ -1,0 +1,41 @@
+.productDetails {
+  max-width: 1400px;
+  padding: 0 4rem;
+  margin: 0 auto;
+  height: 100%;
+  display: grid;
+  grid-template-areas: "main aside";
+  grid-template-columns: auto minmax(100px, 350px);
+  gap: 2rem;
+}
+
+.mainDetails {
+  grid-area: main;
+}
+
+.sectionName {
+  width: 100%;
+  background-color: #e9e9e9;
+  padding: 1rem;
+}
+
+.sectionContent {
+  padding: 1rem;
+}
+
+.imageContainer {
+  width: 100%;
+  height: 300px;
+}
+
+.licenseOption {
+  padding: 0.5rem 0;
+}
+
+.licenseOption > input {
+  margin-right: 1rem;
+}
+
+.description {
+  max-width: 800px;
+}

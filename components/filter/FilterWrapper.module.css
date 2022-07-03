@@ -1,0 +1,16 @@
+.wrapper {
+  width: 100%;
+}
+
+.filterName {
+  background-color: #e9e9e9;
+  padding: 1rem;
+}
+
+.filterContent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 1rem;
+  gap: 1rem;
+}
