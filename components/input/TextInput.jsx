@@ -3,10 +3,8 @@ import useInputValidation from "../../custom-hook/useInputValidation";
 import { useState } from "react";
 
 const TextInput = (props) => {
-  const [value, setValue] = useState("");
-
   //destructuring props
-  const { design, type, placeholder, id, minLength, maxLength } = props;
+  const { value, design, type, placeholder, id, minLength, maxLength } = props;
 
   //validation result
   const [isValid, message] = useInputValidation(type, value);
@@ -14,21 +12,17 @@ const TextInput = (props) => {
   //styling the input based on validity
   const validStyling = isValid ? "validInput" : "invalidInput";
 
-  //handling the input when it's value was changed
-  const onChangeHandler = (e) => {
-    setValue(e.target.value);
-  };
-
   return (
     <div>
       <input
-        onChange={onChangeHandler}
+        onChange={props.onChange}
         className={`${classes[validStyling]} ${classes[design]} ${classes.input}`}
         placeholder={placeholder}
         type={type}
         id={id}
         minLength={minLength}
         maxLength={maxLength}
+        value={value}
       />
       {/* {!isValid && <p>{message}</p>} */}
     </div>

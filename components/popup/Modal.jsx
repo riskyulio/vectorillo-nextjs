@@ -1,19 +1,9 @@
 import classes from "./Modal.module.css";
 import Card from "../Card";
 
-const Modal = () => {
-  let modalClass = "";
-
-  const modalHandler = () => {
-    modalClass = "hidden";
-    console.log(modalClass);
-  };
-
+const Modal = (props) => {
   return (
-    <div
-      onClick={modalHandler}
-      className={`${classes[modalClass]} ${classes.modal}`}
-    >
+    <div className={`${classes.modal} ${classes[props.display]}`}>
       <Card>Subscribe succesfully!</Card>
     </div>
   );
