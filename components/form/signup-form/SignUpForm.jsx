@@ -4,7 +4,6 @@ import Button from "../../button/Button";
 import TextInput from "../../input/TextInput";
 
 const SignUpForm = () => {
-
   const signupHandler = (e) => {
     e.preventDefault();
     console.log("signed up");
@@ -13,7 +12,7 @@ const SignUpForm = () => {
     <Form onSubmit={signupHandler} flexDir="column">
       <TextInput
         placeholder="What's your name?"
-        type="email"
+        type="text"
         id="name"
         minLength="2"
         design="outlined"

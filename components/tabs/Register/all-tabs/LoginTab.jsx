@@ -1,4 +1,4 @@
-import LoginForm from "../../form/login-form/LoginForm";
+import LoginForm from "../../../form/login-form/LoginForm";
 import classes from "./LoginTab.module.css";
 
 const LoginTab = () => {

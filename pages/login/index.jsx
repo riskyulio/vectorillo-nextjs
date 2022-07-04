@@ -1,5 +1,5 @@
 import classes from "./Login.module.css";
-import Tabs from "../../components/tabs/Tab";
+import Tabs from "../../components/tabs/Register/RegisterTab";
 
 const Login = () => {
   return (

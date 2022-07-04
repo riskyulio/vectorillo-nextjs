@@ -1,4 +1,4 @@
-import classes from "./Tab.module.css";
+import classes from "./RegisterTab.module.css";
 import LoginTab from "./all-tabs/LoginTab";
 import SignUpTab from "./all-tabs/SignupTab";
 import { useState } from "react";
@@ -33,7 +33,6 @@ const Tab = () => {
           Signup
         </li>
       </ul>
-
       {/* content of active tab */}
       <div className={classes.tabContent}>
         {tabActive === "login" ? <LoginTab /> : <SignUpTab />}

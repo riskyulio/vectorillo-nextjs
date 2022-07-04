@@ -20,11 +20,6 @@ const Subscribe = () => {
     setBackdropDisplay("close");
   };
 
-  //handling the input when it's value was changed
-  const onInputChangeHandler = (e) => {
-    setInputValue(e.target.value);
-  };
-
   return (
     <section className={classes.subscribe}>
       <Modal display={backdropDisplay} />
@@ -39,8 +34,6 @@ const Subscribe = () => {
             id="email"
             minLength="4"
             placeholder="Enter email"
-            value={inputValue}
-            onChange={onInputChangeHandler}
             required
           />
           <Button

@@ -1,4 +1,4 @@
-import SignUpForm from "../../form/signup-form/SignUpForm";
+import SignUpForm from "../../../form/signup-form/SignUpForm";
 import classes from "./SignupTab.module.css";
 
 const SignUpTab = () => {
