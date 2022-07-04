@@ -5,16 +5,16 @@ const Footer = () => {
   return (
     <footer className={classes.footer}>
       <div className={classes.about}>
+        <h4 className={classes.heading}>About Us</h4>
         <ul>
-          <h3>About Us</h3>
           <li className={classes.listItem}>Refund and Returns Policy</li>
           <li className={classes.listItem}>Terms and Conditions</li>
           <li className={classes.listItem}>Privacy Policy</li>
         </ul>
       </div>
       <div className={classes.links}>
+        <h4 className={classes.heading}>Quick Links</h4>
         <ul>
-          <h3>Quick Links</h3>
           <li className={classes.listItem}>Home</li>
           <li className={classes.listItem}>My account</li>
           <li className={classes.listItem}>Checkout</li>
@@ -22,8 +22,8 @@ const Footer = () => {
         </ul>
       </div>
       <div className={classes.contact}>
+        <h4 className={classes.heading}>Contact Us</h4>
         <ul>
-          <h3>Contact Us</h3>
           <li>artpress@bordereast.ca</li>
           <li>Terms and Conditions</li>
         </ul>

@@ -1,7 +1,7 @@
 import MainNavigation from "../navigation/MainNavigation";
 import Footer from "../footer/Footer";
 import classes from "./Layout.module.css";
-// import Modal from "../../components/popup/Modal";
+// import Modal from "../../components/popup/Modal";      
 
 const Layout = (props) => {
   return (
