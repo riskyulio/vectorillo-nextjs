@@ -22,7 +22,7 @@
 .product:hover {
   transform: scale(102%);
   animation: productMotion 300ms;
-  border: solid 2px #3d40cc;
+  border: solid 2px var(--purple);
 }
 
 .product h4 {

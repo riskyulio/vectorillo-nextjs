@@ -23,7 +23,7 @@
   padding: 1rem;
 }
 .input:focus {
-  color: #3d40cc;
+  color: var(--purple);
 }
 
 .outlined {

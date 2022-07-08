@@ -1,7 +1,7 @@
 .button {
   font-size: 1rem;
   font-weight: 500;
-  color: #3d40cc;
+  color: var(--purple);
 
   cursor: pointer;
   max-height: 3.5rem;
@@ -17,8 +17,8 @@
 
 .primary {
   text-decoration: none;
-  background-color: #3d40cc;
-  border: #3d40cc solid 2px;
+  background-color: var(--purple);
+  border: var(--purple) solid 2px;
   color: white;
 }
 
@@ -28,13 +28,13 @@
 }
 
 .secondary {
-  border: #3d40cc solid 2px;
+  border: var(--purple) solid 2px;
   background-color: transparent;
 }
 
 .secondary .buttonLink {
   text-decoration: none;
-  color: #3d40cc;
+  color: var(--purple);
 }
 
 .tertiary {

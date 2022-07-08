@@ -5,10 +5,10 @@
 
 .light {
   background-color: #f7f5ed;
-  color: #3d40cc;
+  color: var(--purple);
 }
 .dark {
-  background-color: #3d40cc;
+  background-color: var(--purple);
   color: white;
 }
 

@@ -31,7 +31,7 @@
 }
 
 .active {
-  background: #3d40cc;
+  background: var(--purple);
   color: white;
 }
 

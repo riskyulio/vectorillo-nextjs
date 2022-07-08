@@ -23,6 +23,12 @@
   padding: 1rem;
 }
 
+.sectionContent svg {
+  fill: var(--purple);
+  width: 24px;
+  height: 24px;
+}
+
 .imageContainer {
   width: 100%;
   height: 300px;

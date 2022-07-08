@@ -19,6 +19,6 @@
 }
 
 .editProfile {
-  color: #3d40cc;
+  color: var(--purple);
   margin: 1rem 0;
 }

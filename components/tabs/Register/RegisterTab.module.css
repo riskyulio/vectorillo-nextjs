@@ -1,6 +1,6 @@
 .tab {
   max-width: 500px;
-  border: solid 2px #3d40cc;
+  border: solid 2px var(--purple);
   border-radius: 2rem;
   text-align: center;
 
@@ -33,7 +33,7 @@
 }
 
 .active {
-  background: #3d40cc;
+  background: var(--purple);
   color: white;
 }
 

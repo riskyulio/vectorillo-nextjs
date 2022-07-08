@@ -27,7 +27,7 @@
 }
 
 .subheading {
-  color: #3d40cc;
+  color: var(--purple);
 }
 
 .top-row,
